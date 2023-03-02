@@ -1,5 +1,5 @@
 {
-  "name": "rn-project",
+  "name": "todo-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "react-native": "0.70.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@babel/preset-flow": "^7.18.6"
   },
   "private": true
 }
