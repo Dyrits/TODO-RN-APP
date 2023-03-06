@@ -1,10 +1,10 @@
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
-export default function TodoItem({ item, onPress }) {
+export default function TodoItem({ item, removeItem }) {
   return (
     <TouchableOpacity
       onPress={() => {
-        onPress(item.key);
+        removeItem(item.key);
       }}
     >
       <Text style={styles.item}>{item.text}</Text>
