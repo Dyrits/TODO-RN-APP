@@ -12,7 +12,7 @@ export default function AddTodoForm({ addItem }) {
     <View>
       <TextInput
         style={styles.input}
-        placeholder={"New todo..."}
+        placeholder={"New todo~"}
         value={text}
         onChangeText={(value) => {
           handleTextChange(value);
